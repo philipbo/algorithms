@@ -1,0 +1,5 @@
+BenchmarkInsertionSort10-4    	100000000	        17.7 ns/op
+BenchmarkInsertionSort100-4   	10000000	       151 ns/op
+BenchmarkInsertionSort1000-4  	 1000000	      1379 ns/op
+BenchmarkInsertionSort10000-4 	  100000	     14143 ns/op
+BenchmarkInsertionSort100000-4	       1	3430866946 ns/op
