@@ -6,13 +6,14 @@ import (
 )
 
 func insertionSort(arr []int) {
-	j := 0
 	for i := 1; i < len(arr); i++ {
 		tmp := arr[i]
-		for j = i; j > 0 && arr[j-1] > tmp; j-- {
-			arr[j] = arr[j-1]
+		j := i - 1
+		for j >= 0 && arr[j] > tmp {
+			arr[j+1] = arr[j]
+			j--
 		}
-		arr[j] = tmp
+		arr[j+1] = tmp
 	}
 }
 
