@@ -1,0 +1,5 @@
+BenchmarkBuiltinSort10-4    	10000000	       238 ns/op
+BenchmarkBuiltinSort100-4   	  500000	      3819 ns/op
+BenchmarkBuiltinSort1000-4  	   30000	     58036 ns/op
+BenchmarkBuiltinSort10000-4 	    2000	    787156 ns/op
+BenchmarkBuiltinSort100000-4	     200	   9438920 ns/op
